@@ -16,7 +16,7 @@ public class PassengerControl {
         return phoneNumber.matches("^[0-9]{11}$$");
     }
     public static boolean passengerValidation(String firstname, String lastname,
-                                       String passportId, String phoneNumber, String birthdate){
+                                              String passportId, String phoneNumber, String birthdate){
         return nameValidation(firstname) && nameValidation(lastname) &&
                 passportIdValidation(passportId) && phoneNumberValidation(phoneNumber);
     }
